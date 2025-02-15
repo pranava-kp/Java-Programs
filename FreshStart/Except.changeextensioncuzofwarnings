@@ -1,9 +1,9 @@
 public class Except{
     
     public static void main(String[] args) {
-        int j,i=2;
-        //for(int i=0;i<=3;i++)
-        //{
+        int j,i;
+        for(i=0;i<=3;i++)
+        {
             try{
                 switch(i)
                 {
@@ -33,6 +33,6 @@ public class Except{
             finally{
                 System.out.println("This always executes\nNo matter what");
             }
-        //}
+        }
     }
 }
