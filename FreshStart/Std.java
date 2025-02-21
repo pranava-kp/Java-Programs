@@ -1,10 +1,12 @@
 class Student {
-    // private String name,usn;
-    // private double marks;
+    private String name,usn;
+    private double marks;
     private static int count;
-    Student(){
+    public Student(){
         count++;
-        System.out.println(this);
+        System.out.println("\n"+this);
+        System.out.println("ZPC Called\nObj : "+count);
+            
     }
     public static void display()
     {
@@ -18,11 +20,14 @@ class Student {
 public class Std{
     public static void main(String[] args) {
         Student a = new Student();
+        // System.out.println("main"+a);
         Student b = new Student();
+        // System.out.println("main"+b);
         Student p[] = new Student[4];
         for(int i=0;i<4;i++)
         {
             p[i]= new Student();
+            System.out.println("for"+p[i]);
         }
         Student.display();
         a.accept();
@@ -31,6 +36,7 @@ public class Std{
         p[1].accept();
         p[2].accept();
         p[3].accept();
+        // Student.display();
     }
 
 }
