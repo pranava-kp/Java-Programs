@@ -1,0 +1,17 @@
+//WAP to print array length without using inbuilt functions
+//WAP to to reverse the elements in a given array, without using memory 
+//WAP to print the largest element in an array
+//WAP to print the smallest element in an array
+//WAP to print second highest and second smallest element in a an array. Condition is array must be traversed only once. 
+//WAP to print the sum of the array elements
+//WAP to print addition of results of two matrices
+//WAP to print subraction of results of two matrices
+// WAP to print product of two matrices
+// WAP to print the 2D array values in the spiral format
+// WAP to find a trace of matrix [SUM of diagonal elements]
+//WAP to write a string in reverse foramt without using inbuilt functions
+//Check given string is palindrome or not
+//WAP to print number of strings available in the given statement
+//WAP to print the words in reverse order in the given string
+// WAP to check the given word can be a palindrome after interchanging the characters
+// WAP to take a string as an input from the user. Consider the given input string as password, check either the password is valid or not. Conditions are : It should contain atleast 1 capital letter, one lowercase letter, one digit, 1 special character, and the length should be minimum 10 characters 
