@@ -3,3 +3,4 @@
 \.vscode
 /.vscode
 *tempCodeRunnerFile.java
+.vscode/settings.json
