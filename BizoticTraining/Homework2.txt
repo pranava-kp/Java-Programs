@@ -1,0 +1,8 @@
+WAP to check whether given number is amstrong number of not. 
+WAP tp check if a number is strong
+WAP to check if a number is perfect
+WAP to find product all digits
+Using java library ArrayList as a list interface implementation, take input as N integers from STDIN and add it to the list only if they are form an increasing sequence.
+Harini is a content analyst on an online media company that tracks trending topics on social media. Her team receives large groups of text data daily filled with various user comments and hashtags. To quickly identify frequently mentioned words or topics Harini is tasked with creating a tool that counts the occurrance of each word in a giveb text block. Ensure the implementation is case insensitive and ignores punctuations. Example : This is a test. This test is only a test.     Expected output this 2, test 2, and so on
+    Given a string column title that represents the column title as appears in an Excel. Return its corresponding column number. Sample input AB = 28; ZY = 701
+ 
