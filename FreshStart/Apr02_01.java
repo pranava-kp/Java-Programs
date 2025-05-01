@@ -20,8 +20,6 @@ class Apr02_01 {
     LL.removeLast();
     System.out.println("LL after deletion : " + LL);
     
-    
-    
     // Get and set a value.
     String val = LL.get(2);
     LL.set(2, val + " Changed");

@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.HashSet;
+// import java.util.HashSet;
 import java.util.Objects;
 class Student {
     private String name,usn;
@@ -9,7 +9,7 @@ class Student {
     @Override
     public boolean equals(Object obj)
     {
-        System.out.println("equals() called");
+        System.out.println("equals() called "+this.name+" "+((Student)obj).name);
         if (this == obj)
             return true;
         if (obj == null || getClass() != obj.getClass())
@@ -20,7 +20,7 @@ class Student {
     
     @Override
     public int hashCode() {
-        System.out.print("hashCode() called; ");
+        System.out.println("hashCode() called; ");
         int i= Objects.hash(name, usn, marks);
         return i;
     }
@@ -39,17 +39,17 @@ public class Apr09_01
         Student p1 = new Student("abc","25",25);
         Student p2 = new Student("def","26",26);
         Student p3 = new Student("ghi","30",30);
-        hs.add(p1); hs.add(p2);
+        hs.add(p1);
+        hs.add(p2);
         hs.add(p3);
         System.out.println(hs);
-        Student s[]={new Student("abc","25",25),
-        new Student("def","26",26)};
+        Student s[]={new Student("abc","25",25),new Student("def","26",26)};
         System.out.println("**** retailAll() called on student[]****");
         hs.retainAll(Arrays.asList(s));
         System.out.println(hs);
         ArrayList<Student> al = new ArrayList<>();
         al.add(new Student("ghi","30",30));
-        System.out.println("**** retailAll() called on student[]*ykrhffffffffyhO*IYYSAhnrinsiRioooooooooooooooooooo***");
+        System.out.println("**** retailAll() called on student[]****");
         hs.retainAll(al);
         System.out.println(hs);
     }

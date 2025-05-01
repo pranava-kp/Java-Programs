@@ -1,6 +1,10 @@
-class complex
+class Complex
 {
     private int r,i;
+    public Complex()
+    {
+        r=i=0;
+    }
     public void assign(int r, int i)
     { 
         this.r = r; this.i=i; 
@@ -16,10 +20,14 @@ class complex
     //     return t;
     // }
 }
-class student
+class Student
 {
     private int marks;
     public String name;
+    Student()
+    {
+        marks=0;
+    }
     public void assign(String n, int m)
     { 
         name=n; marks=m;
