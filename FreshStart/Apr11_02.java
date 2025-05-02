@@ -8,8 +8,10 @@ class student implements Comparable<student>
     public String toString()
     { return name+" "+usn+" "+marks; }
     public int compareTo(student b) //Arranging objects on ‘name’ value order
-    {   System.out.println("CompareTo() called "+b.name+" "+this.name);
-        return name.compareTo(b.name); }
+    {   
+        System.out.println("CompareTo() called "+b.name+" "+this.name);
+        return name.compareTo(b.name);
+    }
     public String get_usn()
     { return usn; }
     public int get_marks()

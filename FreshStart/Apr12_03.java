@@ -36,17 +36,17 @@ class student /*implements Comparable<student>*/
     //     System.out.println("compare to called");
     //     return b.name.compareTo(name);
     // }
-    // public int compareTo(student b)
-    // //Arranging objects on descending ‘name’ value order
-    // {
-    //     System.out.println("compare to called");
-    //     int v=name.compareTo(b.name);
-    //     if (v>0)
-    //         return -1;
-    //     if (v<0)
-    //         return 1;
-    //     return 0;
-    // } 
+    public int compareTo(student b)
+    //Arranging objects on descending ‘name’ value order
+    {
+        System.out.println("compare to called");
+        int v=name.compareTo(b.name);
+        if (v>0)
+            return -1;
+        if (v<0)
+            return 1;
+        return 0;
+    } 
 }
 class Apr12_03 {
     public static void main(String args[])
