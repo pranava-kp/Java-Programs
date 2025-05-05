@@ -1,6 +1,6 @@
 import javax.swing.*;
-class SwingDemo
-{ public SwingDemo()
+class Apr21_02
+{ public Apr21_02()
     { // Create a new JFrame container.
         JFrame jfrm = new JFrame("A Simple Swing Application");
         // Give the frame an initial size. 
@@ -17,7 +17,7 @@ class SwingDemo
         {
             public void run() 
             { 
-                new SwingDemo(); 
+                new Apr21_02(); 
             } 
             } 
         ); 

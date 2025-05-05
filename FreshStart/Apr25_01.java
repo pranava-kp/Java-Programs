@@ -2,9 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class EventDemo {
+class Apr25_01 {
     JLabel jlab;
-    EventDemo()
+    Apr25_01()
     {
         // Create a new JFrame container.
         JFrame jfrm = new JFrame("An Event Example");
@@ -21,12 +21,14 @@ class EventDemo {
         jbtnAlpha.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 jlab.setText("Alpha was pressed.");
+                System.out.println("Alpha pressed");
             }
         });
         // Add action listener for Beta.
         jbtnBeta.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
                 jlab.setText("Beta was pressed.");
+                System.out.println("Beta Pressed");
             }
         });
         // Add the buttons to the content pane.
@@ -54,7 +56,7 @@ class EventDemo {
         {
             public void run()
             {
-                new EventDemo();
+                new Apr25_01();
             }
         }
         );
