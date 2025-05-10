@@ -23,7 +23,7 @@ class PLAF_UI //Pluggable Look and Feel
     {
 		JFrame frame = new JFrame("Pluggable Look and Feel Demo");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(1920, 1080);
+		frame.setSize(500, 500);
 		frame.setLayout(new FlowLayout());
 		JLabel label = new JLabel("Choose Look and Feel:");
 		String[] lookAndFeels= {"Metal","Nimbus","Motif","Windows"};
